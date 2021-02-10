@@ -4,7 +4,8 @@ module "s3-bucket" {
   # insert required variables here
   bucket_prefix = "pankaj"
   acl    = "private"
-  create_bucket = false
+  create_bucket = true
+  
   versioning = {
     enabled = true
   }
